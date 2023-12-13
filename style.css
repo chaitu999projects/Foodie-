@@ -1,0 +1,159 @@
+@font-face {
+  font-family: myFont;
+    src: url(font1.ttf);
+}
+h1 {
+  font-family: myFont;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #353537;
+}
+.head{
+  align-items: center;
+  text-align: center;
+  color: coral;
+}
+button{
+  box-shadow: 0px 0px 5px coral,
+  0px 0px 30px coral,
+  0px 0px 90px coral;
+}
+.btn1 {
+  padding: 4px 15px;
+  background-color: coral;
+  margin: 4px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.btn2{
+  padding: 4px 15px;
+  background-color: coral;
+  margin: 4px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 390px;
+  object-fit: fill;
+  object-position: center;
+}
+.container{
+  background-color: #FFFFFF;
+  max-width: 100%;
+  height: 240px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 7px;
+  margin-top: 30px;
+  overflow-x: scroll;
+}
+.left img{
+  width: 230px;
+  height: 210px;
+  border-radius: 5px;
+}
+.right {
+  margin-left: 10px;
+  
+}
+
+.right h3{
+  font-family: myFont;
+  color: coral;
+}
+.right p{
+  font-weight: 500;
+  font-size: 17px;
+}
+.right h4 {
+  font-weight: 700;
+  color: #000000;
+}
+.card-container{
+  background-color: #353537;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 49px;
+}
+.card img{
+  width: 250px;
+  height: 270px;
+  border-radius: 6px;
+}
+.card{
+  padding: 10px;
+  overflow-y: scroll;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px #000000;
+}
+.card h4{
+  font-family: myFont;
+  color: coral;
+}
+.card p{
+  width: 220px;
+  font-weight: 700;
+  word-spacing: 2px;
+}
+.card a{
+  text-shadow: 0 0 3px red, 0 0 6px yellow;
+}
+.social-icons {
+  font-size: 50px;
+  text-align: center;
+  word-spacing: 30px;
+  margin-top: 20.0rem;
+  background-color: none;
+  max-width: 100%;
+  height: 100px;
+  active: 20px;
+}
+.social-icons .fa-google-plus{
+  color: red;
+  box-shadow: 0px 0px 5px red,
+  0px 0px 30px red,
+  0px 0px 90px red;
+  border-radius: 45px;
+}
+.social-icons .fa-face-smile{
+  color: #EADB08;
+  background-color: none;
+  box-shadow: 0px 0px 5px yellow,
+  0px 0px 30px yellow,
+  0px 0px 90px yellow;
+  border-radius: 25px;
+}
+.social-icons .fa-spotify{
+  color:#195B07;
+  background-color: none;
+  box-shadow: 0px 0px 5px green,
+  0px 0px 30px green,
+  0px 0px 90px green;
+  border-radius: 25px;
+}
+.social-icons .fa-github{
+  box-shadow: 0px 0px 5px black,
+  0px 0px 30px black,
+  0px 0px 90px black;
+  border-radius: 25px;
+}
+.phra{
+  text-align: center;
+  color: orange;
+  
+}
